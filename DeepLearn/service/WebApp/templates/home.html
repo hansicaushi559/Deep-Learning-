@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change</title>
+  </head>
+  <body>
+    <div class="name">
+      <h1>Will he exit the bank?</h1>
+    </div>
+
+    <form method="POST" , action="{{url_for('home')}}">
+      <p>Credit Score:</p>
+      <input type="number" name="credit" />
+      <p>Age:</p>
+      <input type="number" name="age" />
+      <p>Tenure:</p>
+      <input type="number" name="tenure" />
+      <p>Balance:</p>
+      <input type="number" name="balance" />
+      <p>Number of products:</p>
+      <input type="number" name="products" />
+      <p>Credit Cart:</p>
+      <input type="number" name="cc" />
+      <p>Active:</p>
+      <input type="number" name="active" />
+      <p>Salary:</p>
+      <input type="number" name="salary" />
+      <p>Are you German 1(YES)--0(NO)</p>
+      <input type="number" name="germany" />
+      <p>Are you from Spain 1(YES)--0(NO)</p>
+      <input type="number" name="spain" />
+      <p>Gender 1(MALE)--0(FEMALE)</p>
+      <input type="number" name="gender" />
+
+      <input type="submit" value="Predict!" />
+    </form>
+  </body>
+</html>
